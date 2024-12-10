@@ -1,0 +1,76 @@
+body {
+    background-color: #dfdfdf;
+}
+
+#contenedor {
+    font-size:1em;
+    background-color: #ffffff;
+    border:#d3d3d3 1px solid;
+    text-align: justify;
+    margin: 10px auto;
+    width : 900px ;
+}
+
+#encabezado {
+    width: 900px;
+    height: 150px;
+    background : url('../imagenes/Encabezado.png') no-repeat ;
+    border: #d3d3d3 1px solid ;
+}
+
+#encabezado h1 {
+    text-align: center ;
+    margin-top: 50px;
+    color: aliceblue;
+}
+
+#contenido {
+    border: #d3d3d3 1px solid ;
+    margin: 20px 20px 10px;
+    padding: 10px 15px;
+}
+
+#contenido h2 {
+    color : #0075ff;
+    border-bottom: #CFBFB5 1px solid;
+}
+
+#menu {
+    float: left;
+    width: 120px;
+}
+
+div#contenido {
+    border: #d3d3d3 1px solid ;
+    margin: 20px 20px 10px 180px;
+    padding: 10px 15px;
+}
+
+#menu {
+    float: left;
+    width: 120px;
+    background-color: #b1b1b1 ;
+}
+
+#menu li {
+    border: #000000 3px solid;
+    background-color: #0018a0;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    text-align: center;
+    line-height: 30px;
+}
+
+#menu a {
+    display: block;
+    text-decoration: none;
+    color : #ffffff;
+}
+
+#menu li:hover {
+    background-color: #1c5bad;
+}
+
+#menu li:active,#menu li:hover {
+    background-color: #1b57a5;
+}
